@@ -23,24 +23,24 @@ main {
   align-items: center;
   flex-direction: column;
 }
-main header .head {
+main .head {
   text-align: center;
   width: 70%;
   margin: auto;
 }
-main header .head p:first-of-type {
+main .head p:first-of-type {
   font-weight: 200;
   font-size: 35px;
   color: hsl(234, 12%, 34%);
   margin-bottom: 0;
 }
-main header .head h2 {
+main .head h2 {
   font-weight: 600;
   font-size: 35px;
   color: hsl(234, 12%, 34%);
   margin-top: 0;
 }
-main header .head p:last-of-type {
+main .head p:last-of-type {
   color: hsl(229, 6%, 66%);
   margin: auto;
   width: 90%;
@@ -102,21 +102,21 @@ main .content .card .icon {
   }
 }
 @media (max-width: 630px) {
-  main header .head {
+  main .head {
     width: 90%;
   }
-  main header .head p:first-of-type {
+  main .head p:first-of-type {
     font-size: 25px;
     color: hsl(234, 12%, 34%);
     margin-bottom: 0;
   }
-  main header .head h2 {
+  main .head h2 {
     font-weight: 600;
     font-size: 25px;
     color: hsl(234, 12%, 34%);
     margin-top: 0;
   }
-  main header .head p:last-of-type {
+  main .head p:last-of-type {
     color: hsl(229, 6%, 66%);
     margin: auto;
     width: 100%;
