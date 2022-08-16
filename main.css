@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  background-color: hsl(0, 78%, 62%);
+  width: 50%;
+  margin: 20px auto;
+  color: #fff;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main header .head {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+main header .head p:first-of-type {
+  font-weight: 200;
+  font-size: 35px;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0;
+}
+main header .head h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: hsl(234, 12%, 34%);
+  margin-top: 0;
+}
+main header .head p:last-of-type {
+  color: hsl(229, 6%, 66%);
+  margin: auto;
+  width: 90%;
+}
+
+main .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+main .content .card {
+  max-width: 350px;
+  margin: 15px;
+  box-shadow: 1px 5px 10px hsl(229, 6%, 66%);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+main .content .left .card {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+main .content .middle .card:first-of-type {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+main .content .middle .card:last-of-type {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+main .content .right .card {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+main .content .card h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0;
+}
+main .content .card p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  margin-top: 0;
+  padding: 5px 10px;
+}
+main .content .card .icon {
+  display: flex;
+  justify-content: right;
+}
+@media (max-width: 1000px) {
+  main .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 60px;
+  }
+  main .content .card {
+    max-width: 410px;
+  }
+}
+@media (max-width: 630px) {
+  main header .head {
+    width: 90%;
+  }
+  main header .head p:first-of-type {
+    font-size: 25px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0;
+  }
+  main header .head h2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: hsl(234, 12%, 34%);
+    margin-top: 0;
+  }
+  main header .head p:last-of-type {
+    color: hsl(229, 6%, 66%);
+    margin: auto;
+    width: 100%;
+  }
+
+  main .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px;
+  }
+
+  main .content {
+    margin: 50px 20px;
+  }
+  main .content.card {
+    max-width: 400px;
+  }
+}
